@@ -36,7 +36,7 @@ jobs:
       with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SOURCE: "target/github-actions-springboot-1.0.jar"
-          REMOTE_HOST: 47.99.102.217
+          REMOTE_HOST: 47.254.125.255
           REMOTE_USER: root
           TARGET: /root/springboot/github-actions.jar
           SCRIPT_AFTER: |
